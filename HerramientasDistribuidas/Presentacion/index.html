@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+<!-- <html lang="en-US"> -->
+<html lang="en-US" class="fade">
+<!-- 
+  ^ la clase "fade" hace que las diapositivas pasen suavemente de una a otra
+ -->
+<!-- <html lang="en-US" class="nonumbers"> -->
+<!-- 
+  Si no quieres números en las diapositivas agrega la clase "nonumbers" al elemento HTML.
+-->
+<head>
+  <meta charset="UTF-8">
+  <title>Herramientas distribuidas para la planificación y la gestión de recursos digitales en el aula</title>
+<!-- 
+  Si subes la presentación a la web, asegurate de tener un buen título, este se mostrará en los resultados de las búsquedas y en las redes sociales
+ -->
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    div[id$='bullets'].slide > div::after {
+      content: 'Planificaciones o  plan de clases';
+      background: rgba(200,0,0,0.5);
+      color: #fff;
+      position: absolute;
+      top: 20px;
+      right: 0;
+      padding: 5px 20px;
+      transform: rotate(90deg) translate(52%,-150px);
+      border-radius: 5px;
+    }
+    .full div[id$='bullets'].slide > div::after {
+      animation: wiggle alternate 1s infinite;
+    }
+    @keyframes wiggle {
+      from {
+        transform: rotate(90deg) translate(52%,-150px);
+      }
+      to {
+        transform: rotate(90deg) translate(52%,-160px);
+      }
+    }
+    .slide.shout h2 {
+      font-size: 130px;
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>Herramientas distribuidas para la planificación y la gestión de recursos digitales en el aula</h1>
+    <p class="footer">
+      {Alvar Maciel}, 
+      {<a href="http://twitter.com/amaciel">@amaciel</a> o 
+      <a href="mailto:alvarmaciel@gmail.com">alvarmaciel@gmail.com</a>}
+    </p>
+  </header>
+  <aside class="talkdescription">
+    <p>Esta presentación usa el sistema shower, puedes pasar por encima de cada diapositiva para ver las notas y hacer clic en cualquiera de ellas para ir al modo de presentación. Después puedes usar las teclas para navegar <button onclick="goFullScreen()">Pantalla completa</button></p>
+    <p class="abstract">
+      <strong>Resumen: </strong>
+      Recorrido por las herramientas abiertas disponibles como Webmaker, Github / wikis, Gitbook para producir recursos digitales para utilizar en el aula o para planificar con otros: 
+    </p>
+  </aside>
+
+<!-- 
+    Copia simplemente cada bloque completo para cada diapositiva que quieras. Las diapositivas especiales tienen clases extra. Cada dispositiva necesita un ID que permite un marcador y saltar a esa diapositiva específicamente.
+-->
+
+  <div id="cover" class="slide"><div>
+    <section>
+      <header>
+        <h2>HERRAMIENTAS</h2>
+      </header>
+      <img src="pictures/PortadaBlancoLogos.png" 
+           class="middle shadow" height="400"
+           alt="High-five at the Mozilla Festival!">
+      <small class="byline">
+        {Alvar}, {Maciel}, {Smalltalks / Squeakfest 2014}, {UTN | Córdoba, Argentina}, {3 de Noviembre}
+      </small>
+      <footer class="notes">
+        De lo que vamos a hablar
+      </footer>
+    </section>
+  </div></div>
+
+<!-- end slide block -->
+
+<!-- ===================================================================
+GitHub + Jekyll + Webmaker
+======================================================================== -->
+
+    <div id="SmallTalk" class="slide"><div>
+    <section>
+      <header>
+        <h2>Mundo de la tecnología</h2>
+      </header>
+      
+      <img src="pictures/bytebloon.jpg" 
+           alt="Firefox OS" 
+           class="middle" height="450">
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div></div>
+    
+    <div id="Planificacionbullets" class="slide"><div>
+    <section>
+      <header>
+        <h2>Mundo de la Educación</h2>
+      </header>
+      <figure class="right shadow frame">
+        <img src="pictures/escribir.jpg" 
+             alt="el lenguaje nos une"
+             height="400">
+      </figure>
+      <ul class="inner">
+        <li class="active">Establecen un plan de acción.</li>
+        <li>Tentativo y Modificable.</li>
+        <li>Documenta un recorrido.</li>
+	<li>¿Personal o público?</li>
+    	</ul>
+      <small class="byline">
+	{Imagen:<a href="https://www.flickr.com/photos/mrsdkrebs/6812988187">mrsdkrebs</a>}
+    </small>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+
+  
+  <div id="OpcionPublica" class="slide"><div>
+    <section>
+      <header>
+        <h2>Repositorio público</h2>
+      </header>
+      <img src="pictures/fork-a-repo.gif" 
+           alt="FotoCopia" 
+           class="middle shadow" height="450">
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="red" class="slide"><div>
+    <section>
+      <header>
+        <h2>Colaboración y control de versiones</h2>
+      </header>
+      <img src="pictures/networkgraph.png" 
+           alt="red" 
+           class="middle">
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="Publicaciones" class="slide"><div>
+    <section>
+      <header>
+        <h2>Publicaciones Rápidas con Jekyll</h2>
+      </header>
+      <img src="pictures/beemo.gif" 
+           alt="beemo" 
+           class="right shadow frame" height="200">
+      <img src="pictures/pagina2.png" 
+           alt="pagina2" 
+           class="left" height="350">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="como" class="slide"><div>
+    <section>
+      <header>
+        <h2>Flujo de trabajo usando Github</h2>
+      </header>
+      <figure class="right shadow frame">
+        <img src="pictures/morde.gif" 
+             alt="trabajando"
+             height="200">
+      </figure>
+      <ul class="inner">
+        <li class="active">Escribo o "fotocopio" una planificación</li>
+        <li>Si fotocopié, modifico lo que creo necesario</li>
+        <li>Si es un trabajo en conjunto, envío mis modificaciones</li>
+	<li>actualizo el repositorio y se actualiza mi página</li>
+        <li>Llevo la clase adelante</li>
+        <li>Vuelvo a modificar o escribir.</li>
+      </ul>
+      <footer class="notes">
+        
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="Lo que hay" class="slide"><div>
+    <section>
+      <header>
+        <h2>Planificaciones y blogs</h2>
+      </header>
+      <img src="pictures/plani1.png" 
+           alt="sitio" 
+           class="right shadow frame" height="250">
+      <img src="pictures/plani2.png" 
+           alt="pagina2" 
+           class="left" height="450">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="todojunto" class="slide"><div>
+    <section>
+      <header>
+        <h2>Visión de conjunto</h2>
+      </header>
+      <img src="pictures/alegria.gif" 
+           alt="alegria" 
+           class="right shadow frame" height="250">
+      <ul>
+        <li><a href="https://github.com/acercadelaeducacion">Usuario en Github</a></li>
+        <li><a href="http://acercadelaeducacion.github.io">Blog con contenido para docentes [GitHub]</a></li>
+	<li><a href="http://acercadelaeducacion.github.io/aulataller">Blog con contenido para estudiantes [GitHub]</a></li>
+	<li><a href="https://webmaker.org/en-US/user/amaciel/makes">Algunos recursos hechos con Webmaker</a></li>
+	<li><a href="https://www.gitbook.io/@alvarmaciel">Algunas publicaciones digitales usando Github</a></li>
+      </ul>
+      <footer class="notes">
+      
+    </footer>
+    </section>
+  </div></div>
+
+
+  <div id="dificil" class="slide"><div>
+    <section>
+      <header>
+        <h2>Unas palabras sobre las dificultades</h2>
+      </header>
+      <img src="pictures/educacion.gif" 
+           alt="por favor" 
+           class="middle shadow" height="450">
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div></div>
+
+<!-- ===================================================================
+CONSTRUYAMOS COMUNIDAD
+======================================================================== -->
+
+  <div id="CLAVE" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Comunidades de aprendizaje</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="fxapps" class="slide"><div>
+    <section>
+      <header>
+        <h2>aprendamos juntos</h2>
+      </header>
+      <img src="pictures/PortadaBlancoLogos.png" class="middle" height="400" 
+           alt="Logos">
+      <p class="demourl">
+        <a href="http://community.p2pu.org/c/espanol">Podemos empezar acá</a>
+      </p>
+    <footer class="notes">
+      
+    </footer>
+    </section>
+  </div></div>
+
+
+<!-- ===================================================================
+AND… I'M SPENT
+======================================================================== -->
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Gracias</h2>
+      </header>
+      <img src="pictures/lain.gif" class="right" alt="Red panda (Firefox)">
+      <ul class="nobull">
+        <li>{Alvar}</li>
+        <li>{Herramientas Distribuidas}</li>
+        <li>{<a href="http://twitter.com/amaciel">@amaciel</a>}</li>
+        <li><strong>Slides</strong>: {http://acercadelaeducacion.com.ar}</li>
+      </ul>
+      
+
+    <footer class="notes">
+    </footer>
+
+    </section>
+  </div></div>
+
+  <!--
+    Para esconder la barra de progreso de la presentación, borra el elemento con la clase progress.
+    -->
+  <div class="progress"><div></div></div>
+  <script src="scripts/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
