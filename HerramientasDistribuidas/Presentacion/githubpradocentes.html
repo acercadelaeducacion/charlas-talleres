@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Github para docentes</title>
+<meta name="author" content="(Alvar Maciel)"/>
+<meta name="description" content="Recorrido por algunas herramientas abiertas para producir recursos digitales para el aula o para planificar con otros: Github, Gitbook"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///home/alvar/git/reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="file:///home/alvar/git/reveal.js/css/theme/moon.css" id="theme"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///home/alvar/git/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="Org-Reveal Introduction.">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>Github para docentes</h1>
+<h2>Alvar Maciel</h2>
+<h2><a href="mailto:alvarmaciel@gmail.com">alvarmaciel@gmail.com</a></h2>
+<h2></h2>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-orgheadline1">Herramientas</a></li>
+<li><a href="#/slide-orgheadline2">Mundo de la tecnología</a></li>
+<li><a href="#/slide-orgheadline3">Mundo de la educación</a></li>
+<li><a href="#/slide-orgheadline4">Qué es Github (no&#x2026; para que lo uso)</a></li>
+<li><a href="#/slide-orgheadline5">Repositorio Público</a></li>
+<li><a href="#/slide-orgheadline6">Colaboración y control de versiones</a></li>
+<li><a href="#/slide-orgheadline7">Publicaciones web rápidas con gh-pages o Jekyll</a></li>
+<li><a href="#/slide-orgheadline8">Flujo de trabajo usando github</a></li>
+<li><a href="#/slide-orgheadline9">Planificaciones y blogs</a></li>
+<li><a href="#/slide-orgheadline10">Visión de conjunto</a></li>
+<li><a href="#/slide-orgheadline11">Unas palabras sobre las dificultades</a></li>
+<li><a href="#/slide-orgheadline12">Comunidades de aprendizajes</a></li>
+<li><a href="#/slide-orgheadline13">Aprendamos juntos</a></li>
+<li><a href="#/slide-orgheadline14">Gracias</a></li>
+<li><a href="#/slide-orgheadline15">Créditos</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<section>
+<section id="slide-orgheadline1">
+<h2 id="orgheadline1">Herramientas</h2>
+
+<div class="figure">
+<p><img src="pictures/PortadaBlancoLogos2.png" alt="PortadaBlancoLogos2.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline2">
+<h2 id="orgheadline2">Mundo de la tecnología</h2>
+
+<div class="figure">
+<p><img src="pictures/bytebloon.jpg" alt="bytebloon.jpg" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline3">
+<h2 id="orgheadline3">Mundo de la educación</h2>
+
+<div class="figure">
+<p><img src="pictures/escribir.jpg" alt="escribir.jpg" />
+</p>
+</div>
+
+<aside class="notes">
+<p>
+El lenguaje nos une
+</p>
+
+</aside>
+
+<ul>
+<li>Establecen un plan de acción</li>
+<li>Tentativo y modificable</li>
+<li>Documenta un recorrido</li>
+<li>¿Personal o Público?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline4">
+<h2 id="orgheadline4">Qué es Github (no&#x2026; para que lo uso)</h2>
+
+<div class="figure">
+<p><img src="pictures/queesgithub.jpg" alt="queesgithub.jpg" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline5">
+<h2 id="orgheadline5">Repositorio Público</h2>
+
+<div class="figure">
+<p><img src="pictures/fork-a-repo.gif" alt="fork-a-repo.gif" />
+</p>
+</div>
+
+<ul>
+<li>Los textos por defectos están para que los copiemos</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline6">
+<h2 id="orgheadline6">Colaboración y control de versiones</h2>
+
+<div class="figure">
+<p><img src="pictures/networkgraph.png" alt="networkgraph.png" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline7">
+<h2 id="orgheadline7">Publicaciones web rápidas con gh-pages o Jekyll</h2>
+
+<div class="figure">
+<p><img src="pictures/beemo.gif" alt="beemo.gif" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="pictures/pagina2.png" alt="pagina2.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline8">
+<h2 id="orgheadline8">Flujo de trabajo usando github</h2>
+
+<div class="figure">
+<p><img src="pictures/morde.gif" alt="morde.gif" />
+</p>
+</div>
+
+<ul>
+<li>Escribo o copio (forkeo) una planificación.</li>
+<li>Si es un trabajo en conjunto, envío mis modificaciones (hago un pull request).</li>
+<li>Llevo la clase adelante.</li>
+<li>Vuelvo a modificar o escribir.</li>
+<li>Si uso <a href="https://gitbook.io/">Gitbook</a>, lo que modifico se modifica en el libro.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline9">
+<h2 id="orgheadline9">Planificaciones y blogs</h2>
+
+<div class="figure">
+<p><img src="pictures/plani1.png" alt="plani1.png" />
+</p>
+</div>
+
+
+<div class="figure">
+<p><img src="pictures/plani2.png" alt="plani2.png" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-orgheadline10">
+<h2 id="orgheadline10">Visión de conjunto</h2>
+
+<div class="figure">
+<p><img src="pictures/alegria.gif" alt="alegria.gif" />
+</p>
+</div>
+
+<ul>
+<li><a href="https://github.com/alvarmaciel">Usuario en Github</a>.</li>
+<li><a href="http://acercadelaeducacion.github.io/aulataller">Blog con contenido para estudiantes</a>.</li>
+<li><a href="https://www.gitbook.io/@alvarmaciel">Algunas publicaciones digitales usando Github + Gitbook</a>.</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline11">
+<h2 id="orgheadline11">Unas palabras sobre las dificultades</h2>
+
+<div class="figure">
+<p><img src="pictures/educacion.gif" alt="educacion.gif" />
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline12">
+<h2 id="orgheadline12">Comunidades de aprendizajes</h2>
+<ul>
+<li>Clave para poder salir del aislamiento del aula</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline13">
+<h2 id="orgheadline13">Aprendamos juntos</h2>
+
+<div class="figure">
+<p><img src="pictures/PortadaBlancoLogos2.png" alt="PortadaBlancoLogos2.png" />
+</p>
+</div>
+<ul>
+<li><a href="http://p2pu.org/">Peer2Peer University</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline14">
+<h2 id="orgheadline14">Gracias</h2>
+
+<div class="figure">
+<p><img src="pictures/lain.gif" alt="lain.gif" />
+</p>
+</div>
+
+<ul>
+<li><a href="http://acercadelaeducacion.com.ar/">Alvar Maciel</a></li>
+<li>{<b>Github para docentes</b>}</li>
+<li><a href="https:/twitter.com/amaciel">Twitter: @amaciel</a></li>
+<li><b>Diapos</b>: <a href="http://www.acercadelaeducacion.com.ar/2014/11/charla-herramintas-distriibuidas-para-planificar/">En el blog</a></li>
+<li><a href="https://github.com/acercadelaeducacion/recetario/fork">Recetario, arena de juego para aprender Github y Makdown</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline15">
+<h2 id="orgheadline15">Créditos</h2>
+<ul>
+<li>Imagen: <a href="https://www.flickr.com/photos/mrsdkrebs/6812988187">https://www.flickr.com/photos/mrsdkrebs/6812988187</a></li>
+<li>Gif: <a href="http://www.giphy.com/">http://www.giphy.com/</a></li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<p> Created by yjwen. </p>
+<script src="file:///home/alvar/git/reveal.js/lib/js/head.min.js"></script>
+<script src="file:///home/alvar/git/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:///home/alvar/git/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/alvar/git/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/alvar/git/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>

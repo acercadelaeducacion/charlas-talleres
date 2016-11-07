@@ -1,0 +1,73 @@
+#+TITLE: Github para docentes
+#+AUTHOR: Alvar Maciel
+#+EMAIL:alvarmaciel@gmail.com
+#+DESCRIPTION: Recorrido por algunas herramientas abiertas para producir recursos digitales para el aula o para planificar con otros: Github, Gitbook
+
+* Herramientas
+[[file:pictures/PortadaBlancoLogos2.png]]
+* Mundo de la tecnología
+#+ATTR_LATEX: width
+[[file:pictures/bytebloon.jpg]]
+
+* Mundo de la educación
+[[file:pictures/escribir.jpg]]
+
+
+El lenguaje nos une
+
+- Establecen un plan de acción
+- Tentativo y modificable
+- Documenta un recorrido
+- ¿Personal o Público?
+
+* Qué es Github (no... para que lo uso)
+[[file:pictures/queesgithub.jpg]]
+* Repositorio Público
+[[file:pictures/fork-a-repo.gif]]
+
+- Los textos por defectos están para que los copiemos
+* Colaboración y control de versiones
+[[file:pictures/networkgraph.png]]
+* Publicaciones web rápidas con gh-pages o Jekyll
+[[file:pictures/beemo.gif]]
+
+[[file:pictures/pagina2.png]]
+
+* Flujo de trabajo usando github
+[[file:pictures/morde.gif]]
+
+- Escribo o copio (forkeo) una planificación.
+- Si es un trabajo en conjunto, envío mis modificaciones (hago un pull request).
+- Llevo la clase adelante.
+- Vuelvo a modificar o escribir.
+- Si uso [[https://gitbook.io][Gitbook]], lo que modifico se modifica en el libro.
+
+* Planificaciones y blogs
+[[file:pictures/plani1.png]]
+
+[[file:pictures/plani2.png]]
+
+* Visión de conjunto
+[[file:pictures/alegria.gif]]
+
+- [[https://github.com/alvarmaciel][Usuario en Github]].
+- [[http://acercadelaeducacion.github.io/aulataller][Blog con contenido para estudiantes]].
+- [[https://www.gitbook.io/@alvarmaciel][Algunas publicaciones digitales usando Github + Gitbook]].
+* Unas palabras sobre las dificultades
+[[file:pictures/educacion.gif]]
+* Comunidades de aprendizajes
+- Clave para poder salir del aislamiento del aula
+* Aprendamos juntos
+[[file:pictures/PortadaBlancoLogos2.png]]
+- [[http://p2pu.org][Peer2Peer University]]
+* Gracias
+[[file:pictures/lain.gif]]
+
+- [[http://acercadelaeducacion.com.ar][Alvar Maciel]]
+- {*Github para docentes*}
+- [[https:/twitter.com/amaciel][Twitter: @amaciel]]
+- *Diapos*: [[http://www.acercadelaeducacion.com.ar/2014/11/charla-herramintas-distriibuidas-para-planificar/][En el blog]]
+- [[https://github.com/acercadelaeducacion/recetario/fork][Recetario, arena de juego para aprender Github y Makdown]]
+* Créditos
+- Imagen: https://www.flickr.com/photos/mrsdkrebs/6812988187
+- Gif: http://www.giphy.com

@@ -1,0 +1,45 @@
+#+Title: Github para docentes.
+#+Author: Alvar Maciel
+#+Email: alvarmaciel@gmail.com
+
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:1
+#+REVEAL_ROOT: file:///home/alvar/git/reveal.js
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: cube
+#+REVEAL_THEME: moon
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Org-Reveal Introduction.">
+#+REVEAL_POSTAMBLE: <p> Created by yjwen. </p>
+#+REVEAL_PLUGINS: (markdown notes)
+#+REVEAL_SLIDE_FOOTER:SqueakFest 2016 | San Miguel de Tucumán, Argentina
+#+REVEAL_EXTRA_CSS: ./local.css
+* Las planificaciones o planes de clase
+#+ATTR_REVEAL: :frag (appear)
+- Establecen un plan de acción.
+- Tentativo y Modificable.
+- Documenta un recorrido.
+- ¿Personal o público?
+#+BEGIN_NOTES
+Es importante hablar un poco de las planificaciones, planes de clase o más bien, el rol de la escritura en el docente.
+#+END_NOTES 
+* Repositorio Público
+[[file:~/git/charlas-talleres/GithubParaDocentes/squeakfest2016/imagenes/fork-a-repo.gif]]
+* Porque permite:
+#+ATTR_REVEAL: :frag (appear)
+- Tener control de las versiones de los textos
+[[file:imagenes/networkgraph.png]]
+- Aprender los flujos y metodologías propios de los desarrolladores que creo, puede cambiar, en el sentido de innovar, nuestras prácticas docentes. Como una manera de abrir las puertas del aula para trabajar con otros docentes.
+- GiThub aporta una capa social a GIT.
+* Para qué:
+#+ATTR_REVEAL: :frag (appear)
+- Para tener los textos que escribimos en la máquina con una copia en internet
+  - Podemos trabajar de forma desconectada y cuando tenemos una conexión, sincronizar con la copia en internet. O viceversa.
+- Para dejar disponibles nuestros planes de trabajo
+- Para que otros hagan aportes a nuestras planificaciones
+- Para que otros usen, copien y distribuyan nuestras ideas, así podemos tomar a portes y aportar al trabajo de otros.

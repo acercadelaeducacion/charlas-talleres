@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Github para docentes.</title>
+<meta name="author" content="(Alvar Maciel)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///home/alvar/git/reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="file:///home/alvar/git/reveal.js/css/theme/moon.css" id="theme"/>
+<link rel="stylesheet" href="./local.css"/>
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'file:///home/alvar/git/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="Org-Reveal Introduction.">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide">
+<h1>Github para docentes.</h1>
+<h2>Alvar Maciel</h2>
+<h2><a href="mailto:alvarmaciel@gmail.com">alvarmaciel@gmail.com</a></h2>
+<h2></h2>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-orgheadline1">Las planificaciones o planes de clase</a></li>
+<li><a href="#/slide-orgheadline2">Repositorio Público</a></li>
+<li><a href="#/slide-orgheadline3">Porque permite:</a></li>
+<li><a href="#/slide-orgheadline4">Para qué:</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<section id="slide-orgheadline1">
+<h2 id="orgheadline1">Las planificaciones o planes de clase</h2>
+<ul class="fragment roll-in">
+<li>Establecen un plan de acción.</li>
+<li>Tentativo y Modificable.</li>
+<li>Documenta un recorrido.</li>
+<li>¿Personal o público?</li>
+
+</ul>
+<aside class="notes">
+<p>
+Es importante hablar un poco de las planificaciones, planes de clase o más bien, el rol de la escritura en el docente.
+</p>
+
+</aside>
+<div class="slide-footer">= SqueakFest 2016 | San Miguel de Tucumán, Argentina</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline2">
+<h2 id="orgheadline2">Repositorio Público</h2>
+
+<div class="figure">
+<p><img src="file:///home/alvar/git/charlas-talleres/GithubParaDocentes/squeakfest2016/imagenes/fork-a-repo.gif" alt="fork-a-repo.gif" />
+</p>
+</div>
+<div class="slide-footer">= SqueakFest 2016 | San Miguel de Tucumán, Argentina</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline3">
+<h2 id="orgheadline3">Porque permite:</h2>
+<ul class="fragment roll-in">
+<li>Tener control de las versiones de los textos</li>
+
+</ul>
+
+<div class="figure">
+<p><img src="imagenes/networkgraph.png" alt="networkgraph.png" />
+</p>
+</div>
+<ul>
+<li>Aprender los flujos y metodologías propios de los desarrolladores que creo, puede cambiar, en el sentido de innovar, nuestras prácticas docentes. Como una manera de abrir las puertas del aula para trabajar con otros docentes.</li>
+<li>GiThub aporta una capa social a GIT.</li>
+
+</ul>
+<div class="slide-footer">= SqueakFest 2016 | San Miguel de Tucumán, Argentina</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline4">
+<h2 id="orgheadline4">Para qué:</h2>
+<ul class="fragment roll-in">
+<li>Para tener los textos que escribimos en la máquina con una copia en internet
+<ul>
+<li>Podemos trabajar de forma desconectada y cuando tenemos una conexión, sincronizar con la copia en internet. O viceversa.</li>
+
+</ul></li>
+<li>Para dejar disponibles nuestros planes de trabajo</li>
+<li>Para que otros hagan aportes a nuestras planificaciones</li>
+<li>Para que otros usen, copien y distribuyan nuestras ideas, así podemos tomar a portes y aportar al trabajo de otros.</li>
+
+</ul>
+<div class="slide-footer">= SqueakFest 2016 | San Miguel de Tucumán, Argentina</div>
+</section>
+</section>
+</div>
+</div>
+<p> Created by yjwen. </p>
+<script src="file:///home/alvar/git/reveal.js/lib/js/head.min.js"></script>
+<script src="file:///home/alvar/git/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'cube', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'file:///home/alvar/git/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/alvar/git/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'file:///home/alvar/git/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
